@@ -1,0 +1,107 @@
+/* Default */
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Afacad', sans-serif;
+    background-image: url('assets/image01.jpg');
+    background-size: cover;
+    object-fit: cover;
+    color: #521e69;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 13px;
+    border: 3px solid #B3A1B5;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+}
+
+/* Header */
+.header {
+    display: flex;
+    background-color: #DBCAE0;
+    font-weight: 300;
+    padding: 10px;
+    border-bottom: 3px solid #B3A1B5;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+    color: #634E66;
+}
+
+.header img{
+    float: right;
+    width: 20%;
+    height: 20%;
+    padding-left: 350px;
+}
+
+.image-container img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-content {
+    color: #634E66;
+    padding: 0 50px;
+    font-size: 18px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #A796AB;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c5a7e0;
+}
+
+.slogan {
+    font-weight: bold;
+}
+
+.star-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; /* Spasi di atas dan bawah */
+}
+
+.star-divider::before,
+.star-divider::after {
+    content: '';
+    flex: 1;
+    /* border-bottom: 2px solid #B3A1B5;  */
+    margin: 0 10px; /* Spasi antara garis dan bintang */
+}
+
+.star-divider span {
+    font-size: 20px;
+    color: #B3A1B5; /* Warna bintang */
+}
+
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #634E66;
+}
